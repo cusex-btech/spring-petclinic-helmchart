@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   # repository: harbor.example.com/library/samples/spring-petclinic
-  repository: susesamples/spring-petclinic-demo
+  repository: imagerepo.big.go.id/big/samples/spring-petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: v1.0.72
@@ -49,7 +49,7 @@ ingress:
     kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: petclinic.suse.lab
+    - host: petclinic.big.go.id
       paths: []
   tls: []
   #  - secretName: chart-example-tls
