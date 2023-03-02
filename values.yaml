@@ -5,11 +5,11 @@
 replicaCount: 1
 
 image:
-  # repository: harbor.example.com/library/samples/spring-petclinic
-  repository: imagerepo.big.go.id/big/samples/spring-petclinic
+  # repository: imagerepo.big.go.id/cusex/samples/spring-petclinic
+  repository: imagerepo.big.go.id/cusex/samples/spring-petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: v1.0.72
+  tag: v1.0.1
 
 imagePullSecrets: []
 nameOverride: "spring-petclinic"
