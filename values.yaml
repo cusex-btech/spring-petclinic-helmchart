@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   # repository: imagerepo.big.go.id/cusex/samples/spring-petclinic
-  repository: imagerepo.big.go.id/cusex/samples/spring-petclinic
+  repository: imagerepo.big.go.id/big/samples/spring-petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: v1.0.1
