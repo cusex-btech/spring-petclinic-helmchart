@@ -5,8 +5,7 @@
 replicaCount: 1
 
 image:
-  # repository: imagerepo.big.go.id/cusex/samples/spring-petclinic
-  repository: imagerepo.big.go.id/cusex/samples/spring-petclinic
+  repository: imagerepo.big.go.id/samples/spring-petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: v1.0.2
@@ -41,7 +40,7 @@ service:
   type: NodePort
   port: 8080
   targetPort: 8080
-  nodePort: 30800
+  nodePort: []
 
 ingress:
   enabled: false
